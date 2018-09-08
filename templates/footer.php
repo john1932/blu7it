@@ -64,15 +64,10 @@
     </div>
 
 </footer>
-<script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-</script>
+ 
 
 
-<!-- Include modernizr-2.8.0.min.js -->
-<script src="assets/js/modernizr-2.8.0.min.js">
-</script>
+
 
 <!-- Include jquery.min.js plugin -->
 <script src="assets/js/jquery-2.1.0.min.js">
@@ -101,6 +96,13 @@
 </script>
 
 
+<!-- select elem of spec categ-->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/common_scripts.js"></script>
+	<!-- <script src="js/menu.js"></script> -->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/wizard_func_1.js"></script>
+
 <script type="text/javascript">
     /*----------- wow animation with support of wow.js and animation.css ----------------*/
     var wow = new WOW({
@@ -110,6 +112,67 @@
         mobile: false // trigger animations on mobile devices (true is default)
     });
     wow.init();
+</script>
+
+ <script>
+    $(document).on('click', '#close-preview', function () {
+        $('.image-preview').popover('hide');
+        // Hover befor close the preview
+        $('.image-preview').hover(
+            function () {
+                $('.image-preview').popover('show');
+            },
+            function () {
+                $('.image-preview').popover('hide');
+            }
+        );
+    });
+
+    $(function () {
+        // Create the close button
+        var closebtn = $('<button/>', {
+            type: "button",
+            text: 'x',
+            id: 'close-preview',
+            style: 'font-size: initial;',
+        });
+        closebtn.attr("class", "close pull-right");
+        // Set the popover default content
+        $('.image-preview').popover({
+            trigger: 'manual',
+            html: true,
+            title: "<strong>Preview</strong>" + $(closebtn)[0].outerHTML,
+            content: "There's no image",
+            placement: 'bottom'
+        });
+        // Clear event
+        $('.image-preview-clear').click(function () {
+            $('.image-preview').attr("data-content", "").popover('hide');
+            $('.image-preview-filename').val("");
+            $('.image-preview-clear').hide();
+            $('.image-preview-input input:file').val("");
+            $(".image-preview-input-title").text("Browse");
+        });
+        // Create the preview image
+        $(".image-preview-input input:file").change(function () {
+            var img = $('<img/>', {
+                id: 'dynamic',
+                width: 250,
+                height: 200
+            });
+            var file = this.files[0];
+            var reader = new FileReader();
+            // Set preview image into the popover data-content
+            reader.onload = function (e) {
+                $(".image-preview-input-title").text("Change");
+                $(".image-preview-clear").show();
+                $(".image-preview-filename").val(file.name);
+                img.attr('src', e.target.result);
+            //     $(".image-preview").attr("data-content", $(img)[0].outerHTML).popover("show");
+            }
+            reader.readAsDataURL(file);
+        });
+    });
 </script>
 
 </body>

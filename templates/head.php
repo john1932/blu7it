@@ -5,28 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="assets/css/style.css" rel="stylesheet">  
+	<link href="assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+	<link href="assets/css/skins/square/grey.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/linecons-font-style.css" rel="stylesheet"> 
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- icon fonts linecons -->
-    <link href="assets/css/linecons-font-style.css" rel="stylesheet">
-
-    <link href="assets/css/jquery.fs.boxer.css" rel="stylesheet" />
-
-    <!-- Important owl stylesheet -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-
-    <!-- content slider Styles -->
-    <link href="assets/css/content_slider_style.css" rel="stylesheet" />
-
-    <!-- animate.css Styles -->
-    <link href="assets/css/animate.css" rel="stylesheet" />
-
-    <!-- Import Custom Styles -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- Import Responsive Styles -->
     <link href="assets/css/responsive.css" rel="stylesheet">
+	<script src="assets/js/modernizr.js"></script>
     <title>Blue 7 IT!</title>
 </head>
 
@@ -87,7 +75,7 @@
                             <a href="http://localhost/blue7/contact.php">Contact</a>
                         </li>
                         <li>
-                            <a href="">Price Request</a>
+                            <a href="http://localhost/blue7/pricerequest.php">Price Request</a>
                         </li>
                         <li>
                             <a href="">Order</a>
