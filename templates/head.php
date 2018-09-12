@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.css"> -->
 	<link href="assets/css/style.css" rel="stylesheet">  
 	<link href="assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 	<link href="assets/css/skins/square/grey.css" rel="stylesheet">
@@ -13,8 +14,9 @@
     <link href="assets/css/linecons-font-style.css" rel="stylesheet"> 
     <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-	<script src="assets/js/modernizr.js"></script>
+    <link href="assets/css/responsive.css" rel="stylesheet"> 
+    <script src="assets/js/modernizr.js"></script>
+    
     <title>Blue 7 IT!</title>
 </head>
 
@@ -46,28 +48,28 @@
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="">Maps</a>
+                                    <a href="http://localhost/blue7/maps.php">Maps</a>
                                 </li>
                                 <li>
-                                    <a href="">Properties</a>
+                                    <a href="http://localhost/blue7/property.php">Properties</a>
                                 </li>
                                 <li>
-                                    <a href="">Buildings</a>
+                                    <a href="http://localhost/blue7/buildings.php">Buildings</a>
                                 </li>
                                 <li>
-                                    <a href="">Sections</a>
+                                    <a href="http://localhost/blue7/sections.php">Sections</a>
                                 </li>
                                 <li>
-                                    <a href="">FloorPlans </a>
+                                    <a href="http://localhost/blue7/floorplans.php">FloorPlans </a>
                                 </li>
                                 <li>
-                                    <a href="">Details</a>
+                                    <a href="http://localhost/blue7/details.php">Details</a>
                                 </li>
                                 <li>
-                                    <a href="">Example Video</a>
+                                    <a href="http://localhost/blue7/examplevideo.php">Example Video</a>
                                 </li>
                                 <li>
-                                    <a href="">Example Brochure</a>
+                                    <a href="http://localhost/blue7/brochure.php">Example Brochure</a>
                                 </li>
                             </ul>
                         </li>
@@ -78,20 +80,10 @@
                             <a href="http://localhost/blue7/pricerequest.php">Price Request</a>
                         </li>
                         <li>
-                            <a href="">Order</a>
+                            <a href="http://localhost/blue7/orders.php">Order</a>
                         </li>
-                        <li class="dropdown">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Account
-                                <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="">Login</a>
-                                </li>
-                                <li>
-                                    <a href="">Register</a>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="http://localhost/blue7/account.php">Login / Register</a>
                         </li>
 
 

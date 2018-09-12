@@ -46,10 +46,10 @@
                 <div class="item">
                     <div class="top-headings">
                         <h2 class="top-heading-1">
-                            <span>Multi</span>purpose
+                            <span>Blue 7</span> IT
                         </h2>
                         <h3 class="top-heading-2 wow bounceInLeft  center animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInLeft;">
-                            <span>Top</span>Class Ready to
+                            Ready to
                             <span>use for </span>
                         </h3>
                         <h3 class="top-heading-3 wow bounceInRight  center animated animated" data-wow-delay=".6s"

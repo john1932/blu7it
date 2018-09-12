@@ -1,73 +1,141 @@
-<footer>
-    <div class="up-footer">
-        <div class="container">
-            <div class="row">
 
+ 
+ 
+<footer class="footer1">
+<div class="container">
 
-
-                <div class="col-md-4 triggerAnimation animated fadeInUp" data-animate="fadeInUp">
-                    <div class="  footer-widgets text-center ">
-                        <h4>VISUALIZATIONS</h4>
-                        <ul class="list-unstyled">
-                            <li>
-                                <p>
-                                    <a href="#">SUPERFLOORPLANS.COM (GBP) BLUE7.IT (GBP)</a>
-                                </p>
-
+<div class="row"> 
+            
+                <div class="col-lg-3 col-md-3"> 
+                <ul class="list-unstyled clear-margins"> 
+                        
+                        	<li class="widget-container widget_nav_menu"> 
+                    
+                                <h1 class="title-widget">VISUALIZATIONS</h1>
+                                
+                                <ul>
+                                	<li><a  href="#"><i class="fa fa-angle-double-right"></i> SUPERFLOORPLANS.COM (GBP) BLUE7.IT (GBP)</a></li> 
+                                </ul>
+                    
+							</li>
+                            
                         </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-4 triggerAnimation animated fadeInDown" data-animate="fadeInDown">
-                    <div class=" footer-widgets text-center">
-                        <h4>PROPERTIES (EXAMPLES)</h4>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#">MOLDOVA - INDUSTRIAL PARK</a>
-                            </li>
-                            <li>
-                                <a href="#">GERMANY - APARTMENTHOUSE LEIPZIG</a>
-                            </li>
-
+                         
+                      
+                </div> 
+                
+                
+                
+                <div class="col-lg-3 col-md-3"> 
+            
+                <ul class="list-unstyled clear-margins"> 
+                        
+                        	<li class="widget-container widget_nav_menu"> 
+                    
+                                <h1 class="title-widget">PROPERTIES </h1>
+                                
+                                <ul>
+ 									<li><a  href="#"><i class="fa fa-angle-double-right"></i>  MOLDOVA - INDUSTRIAL PARK</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  GERMANY - APARTMENTHOUSE LEIPZIG</a></li> 
+                                </ul>
+                    
+							</li>
+                            
                         </ul>
-                    </div>
-                </div>
+                         
+                      
+                </div> 
+                
+                
+                
+                <div class="col-lg-3 col-md-3"> 
+            
+                <ul class="list-unstyled clear-margins"> 
+                        
+                        	<li class="widget-container widget_nav_menu"> 
+                    
+                                <h1 class="title-widget">FAQ</h1>
+                                
+                                <ul>
 
-                <div class="col-md-4 triggerAnimation animated fadeInRight" data-animate="fadeInRight">
-                    <div class=" footer-widgets text-center">
-                        <h4>FAQ</h4>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#">
-                                    WE SEEK
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    SUPPORT
-                                </a>
-                            </li>
 
+                <li><a href="#"><i class="fa fa-angle-double-right"></i> WE SEEK</a></li>
+ 				<li><a href="#"><i class="fa fa-angle-double-right"></i> SUPPORT</a></li> 
+
+                                </ul>
+                    
+							</li>
+                            
                         </ul>
-                    </div>
+                         
+                      
+                </div> 
+                
+                
+                <div class="col-lg-3 col-md-3"> 
+                
+                   
+                    
+                        <ul class="list-unstyled clear-margins"> 
+                        
+                        	<li class="widget-container widget_recent_news"> 
+                    
+                                <h1 class="title-widget">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">Blue7 it!</h2>
+                                <p><b>Email id:</b> <a href=" ">info@blue7.com</a></p>
+                                <p><b>Helpline Numbers </b>
+
+    <b style="color:#ffc106;">(9AM to 6PM):</b>  +00-11111111, +00-11111111  </p>
+    
+    <p><b>Corp Office / Postal Address</b></p>
+    <p><b>Phone Numbers : </b>12345678, </p>
+    <p> 000-11111111, 11111111</p>
+                                </div>
+                                
+                                <div class="social-icons">
+                                
+                                	<ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+	            <a href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+	            <a href="https://plus.google.com/"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+	            <a href=""><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                    		</li>
+                          </ul>
+                       </div>
                 </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-copyright">
-        <div class="container">
-            <p class="text-center">© 2018, All Rights Reserved</p>
-
-        </div>
-    </div>
-
+</div>
 </footer>
  
 
+<div class="footer-bottom">
 
+	<div class="container">
 
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+                    © 2018 BLUE7.IT, All rights reserved
+                    
+
+				</div>
+
+            </div> 
+         
+
+	</div>
+
+</div>
+ 
 
 <!-- Include jquery.min.js plugin -->
 <script src="assets/js/jquery-2.1.0.min.js">
@@ -95,6 +163,28 @@
 <script src="assets/js/jquery.mousewheel.js">
 </script>
 
+<!-- account login -->
+<script>
+    $(function() {
+
+$('#login-form-link').click(function(e) {
+    $("#login-form").delay(100).fadeIn(100);
+     $("#register-form").fadeOut(100);
+    $('#register-form-link').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+});
+$('#register-form-link').click(function(e) {
+    $("#register-form").delay(100).fadeIn(100);
+     $("#login-form").fadeOut(100);
+    $('#login-form-link').removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+});
+
+});
+
+</script>
 
 <!-- select elem of spec categ-->
 <script src="assets/js/jquery-2.2.4.min.js"></script>
