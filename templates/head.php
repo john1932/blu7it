@@ -15,7 +15,7 @@
     <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet"> 
-    <script src="assets/js/modernizr.js"></script>
+    <script src="assets/js/modernizr.js"></script> 
     
     <title>Blue 7 IT!</title>
 </head>
@@ -65,12 +65,12 @@
                                 <li>
                                     <a href="http://localhost/blue7/details.php">Details</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="http://localhost/blue7/examplevideo.php">Example Video</a>
                                 </li>
                                 <li>
                                     <a href="http://localhost/blue7/brochure.php">Example Brochure</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <li>
