@@ -11,8 +11,7 @@
 	<link href="assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 	<link href="assets/css/skins/square/grey.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/linecons-font-style.css" rel="stylesheet"> 
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/linecons-font-style.css" rel="stylesheet">  
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet"> 
     <script src="assets/js/modernizr.js"></script> 

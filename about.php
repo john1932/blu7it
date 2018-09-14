@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="about-us-thumb">
-                        <img src="images/section-content/about-us.jpg" alt="About Us Image">
+                        <img src="img/area9.jpg" alt="About Us Image">
                     </div>
                     <!-- /.about-us-thumb -->
                 </div>

@@ -95,17 +95,7 @@
     <p> 000-11111111, 11111111</p>
                                 </div>
                                 
-                                <div class="social-icons">
                                 
-                                	<ul class="nomargin">
-                                    
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
-	            <a href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
-	            <a href="https://plus.google.com/"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
-	            <a href=""><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
-                                    
-                                    </ul>
-                                </div>
                     		</li>
                           </ul>
                        </div>
@@ -135,8 +125,7 @@
 	</div>
 
 </div>
- 
-
+  
 <!-- Include jquery.min.js plugin -->
 <script src="assets/js/jquery-2.1.0.min.js">
 </script>
@@ -188,8 +177,7 @@ $('#register-form-link').click(function(e) {
 
 <!-- select elem of spec categ-->
 <script src="assets/js/jquery-2.2.4.min.js"></script>
-	<script src="assets/js/common_scripts.js"></script>
-	<!-- <script src="js/menu.js"></script> -->
+	<script src="assets/js/common_scripts.js"></script> 
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/wizard_func_1.js"></script>
 

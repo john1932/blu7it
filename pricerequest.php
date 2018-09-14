@@ -157,8 +157,8 @@
                 <!-- /middle-wizard -->
                 <div id="bottom-wizard">
                     <div class="pull-right clearfix">
-                        <button type="button" name="backward" class="backward">Backward </button>
-                        <button type="button" name="forward" class="forward">Forward</button>
+                        <button type="button" name="backward" class="backward">Back </button>
+                        <button type="button" name="forward" class="forward">Next</button>
                         <button type="submit" name="process" class="submit">Submit</button>
                     </div>
                 </div>
